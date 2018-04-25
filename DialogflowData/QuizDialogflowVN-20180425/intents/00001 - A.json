@@ -1,0 +1,42 @@
+{
+  "id": "63214821-e70b-498d-866f-7092bb9234db",
+  "parentId": "a608efa3-69a4-49c9-904e-1ec2c6ecc02c",
+  "rootParentId": "a608efa3-69a4-49c9-904e-1ec2c6ecc02c",
+  "name": "00001 - A",
+  "auto": true,
+  "contexts": [
+    "00001-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "00001.00001-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "c3bd3c7e-eaf1-4210-8103-4d168a53b328",
+          "required": false,
+          "dataType": "@sys.number-integer",
+          "name": "score",
+          "value": "0",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Cạn lời... Hãy chọn số của câu hỏi tiếp theo nào?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1524629328,
+  "fallbackIntent": false,
+  "events": []
+}
