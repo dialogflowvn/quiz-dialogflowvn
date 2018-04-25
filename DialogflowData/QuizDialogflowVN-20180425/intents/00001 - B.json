@@ -1,0 +1,42 @@
+{
+  "id": "4f41dd61-2b81-49bb-bd39-89b0edf7d017",
+  "parentId": "a608efa3-69a4-49c9-904e-1ec2c6ecc02c",
+  "rootParentId": "a608efa3-69a4-49c9-904e-1ec2c6ecc02c",
+  "name": "00001 - B",
+  "auto": true,
+  "contexts": [
+    "00001-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "00001.00001-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "3b6fd413-07cc-4c31-8588-1ab3ec70b6b6",
+          "required": false,
+          "dataType": "@sys.number-integer",
+          "name": "score",
+          "value": "0",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Chúc mừng. Bạn đã lựa chọn sai rồi \u003d]]. Câu hỏi tiếp theo bạn chọn là câu nào?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1524629368,
+  "fallbackIntent": false,
+  "events": []
+}

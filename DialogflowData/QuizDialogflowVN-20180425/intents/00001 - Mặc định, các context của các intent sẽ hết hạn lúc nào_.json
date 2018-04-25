@@ -1,0 +1,54 @@
+{
+  "id": "a608efa3-69a4-49c9-904e-1ec2c6ecc02c",
+  "name": "00001 - Mặc định, các context của các intent sẽ hết hạn lúc nào?",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "00001-followup",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Mặc định, các context của các intent sẽ hết hạn lúc nào?"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "A - Sau 30 phút kể từ khi nó được tạo"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "B - Sau 5 requests kể từ khi nó được tạo"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "C - Sau 5 requests và/hoặc 10 phút kể từ khi nó được tạo"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "D - Biết chết liền ^^"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1524629264,
+  "fallbackIntent": false,
+  "events": []
+}

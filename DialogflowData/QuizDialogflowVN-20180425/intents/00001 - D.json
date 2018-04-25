@@ -1,0 +1,40 @@
+{
+  "id": "142d1956-b501-48c2-ba09-37cec4608cce",
+  "parentId": "a608efa3-69a4-49c9-904e-1ec2c6ecc02c",
+  "rootParentId": "a608efa3-69a4-49c9-904e-1ec2c6ecc02c",
+  "name": "00001 - D",
+  "auto": true,
+  "contexts": [
+    "00001-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "00001.00001-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "80e4fe80-e087-4ce2-b686-4d8659f1b125",
+          "dataType": "@sys.number-integer",
+          "name": "score",
+          "value": "0"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Vâng, xin cám ơn! Hãy thử câu hỏi tiếp theo nào"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1524627558,
+  "fallbackIntent": false,
+  "events": []
+}

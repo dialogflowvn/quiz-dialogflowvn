@@ -1,0 +1,33 @@
+{
+  "id": "805da1d6-d8d2-4d97-912b-d54b8a91a811",
+  "parentId": "a608efa3-69a4-49c9-904e-1ec2c6ecc02c",
+  "rootParentId": "a608efa3-69a4-49c9-904e-1ec2c6ecc02c",
+  "name": "00001 - fallback",
+  "auto": false,
+  "contexts": [
+    "00001-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "00001.00001-fallback",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Bạn hãy nhập vào A hoặc B/C/D nhé!"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1524626813,
+  "fallbackIntent": true,
+  "events": []
+}

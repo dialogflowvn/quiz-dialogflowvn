@@ -1,0 +1,40 @@
+{
+  "id": "c8f358d9-2883-4e7b-984d-c9d1ae29c7c4",
+  "parentId": "100827bd-9d5e-47f1-9c6c-c2d8777baa91",
+  "rootParentId": "100827bd-9d5e-47f1-9c6c-c2d8777baa91",
+  "name": "00002 - E",
+  "auto": true,
+  "contexts": [
+    "00002-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "00002.00002-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "7a784d81-9dd4-4119-bf67-63a475317c00",
+          "dataType": "@sys.number-integer",
+          "name": "score",
+          "value": "0"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Trật lất"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1524631217,
+  "fallbackIntent": false,
+  "events": []
+}

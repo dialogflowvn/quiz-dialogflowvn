@@ -1,0 +1,59 @@
+{
+  "id": "100827bd-9d5e-47f1-9c6c-c2d8777baa91",
+  "name": "00002 - Có bao nhiêu phiên bản Dialogflow mà Google cung cấp? (Tính đến ngày 25/04/2018)",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "00002-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Có bao nhiêu phiên bản Dialogflow mà Google cung cấp? (Tính đến ngày 25/04/2018)"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "A - Có 1 bản Free"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "B - Có 1 bản phải trả phí"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "C - Có 2 bản phải trả phí (Standard \u0026 Enterprise)"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "D - Có 2 bản, bản free tên là Standard \u0026 bản trả phí tên là Enterprise"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "E - Hình như 3 bản"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1524631251,
+  "fallbackIntent": false,
+  "events": []
+}

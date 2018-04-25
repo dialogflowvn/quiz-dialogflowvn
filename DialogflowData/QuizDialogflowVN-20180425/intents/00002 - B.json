@@ -1,0 +1,40 @@
+{
+  "id": "213879fe-7489-4138-b8f7-2f85af89bde8",
+  "parentId": "100827bd-9d5e-47f1-9c6c-c2d8777baa91",
+  "rootParentId": "100827bd-9d5e-47f1-9c6c-c2d8777baa91",
+  "name": "00002 - B",
+  "auto": true,
+  "contexts": [
+    "00002-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "00002.00002-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "3a96e82c-7c44-4147-bf6d-d3eb247d1f76",
+          "dataType": "@sys.number-integer",
+          "name": "score",
+          "value": "0"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Còn thiếu rồi..."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1524631030,
+  "fallbackIntent": false,
+  "events": []
+}

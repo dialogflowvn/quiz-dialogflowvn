@@ -1,0 +1,47 @@
+{
+  "id": "4bca1035-414a-4f24-bd5e-bf2fdd6cdeb5",
+  "parentId": "a608efa3-69a4-49c9-904e-1ec2c6ecc02c",
+  "rootParentId": "a608efa3-69a4-49c9-904e-1ec2c6ecc02c",
+  "name": "00001 - C",
+  "auto": true,
+  "contexts": [
+    "00001-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "00001.00001-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "41606f36-9254-4bbc-85fc-1f587eb535cc",
+          "required": false,
+          "dataType": "@sys.number-integer",
+          "name": "score",
+          "value": "1",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Wow, chính xác. Chọn câu tiếp theo nào!"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "More detail: Lifespan: By default, contexts in intents expire after either five requests or ten minutes from the time they were activated. Contexts in Follow-up intents have a default lifespan of two requests. Intents that renew the context will reset the counter and clock to give an additional five requests and ten minutes. You can change the lifespan of the context by clicking on the current lifespan and entering the desired number of requests. Setting the lifespan to 0 will reset the content when it is matched"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1524629579,
+  "fallbackIntent": false,
+  "events": []
+}

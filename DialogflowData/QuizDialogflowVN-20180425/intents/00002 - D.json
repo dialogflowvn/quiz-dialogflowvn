@@ -1,0 +1,40 @@
+{
+  "id": "287ae2d3-ae25-41e1-98e2-68c308d3ba43",
+  "parentId": "100827bd-9d5e-47f1-9c6c-c2d8777baa91",
+  "rootParentId": "100827bd-9d5e-47f1-9c6c-c2d8777baa91",
+  "name": "00002 - D",
+  "auto": true,
+  "contexts": [
+    "00002-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "00002.00002-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "16a03f29-9246-44f4-b4df-83b320297277",
+          "dataType": "@sys.number-integer",
+          "name": "score",
+          "value": "1"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Chuẩn"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1524631143,
+  "fallbackIntent": false,
+  "events": []
+}
